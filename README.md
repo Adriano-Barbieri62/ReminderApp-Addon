@@ -42,39 +42,61 @@ In the main window of the program at startup we will find the following five men
 # File Menu Submenu Alt+ f
 
 In this first menu we will have the following options:    
+# Contacts submenu
+* Export your contacts... Ctrl+Shift+e  
+Press Enter, a dialog box will appear with the title:  
+`Export Contacts`  
+Type a new export name if desired in the File Name field  
+Then specify txt or json as the file type.  
+`Type: JSON File (*.json)`  
+Press the down arrow to find:  
+`Text File (*.txt)`  
+Choose the destination from the tree view:  
+Finally, save your file by clicking the button: `Export File.`  
+If everything goes well, the following message will appear:  
+`Warning! Contacts exported successfully!`  
 
-* Export your address book contacts... Ctrl+Shift+E    
-Press Enter, a dialog box appears as name:    
-`Export contacts`    
-Select the location and export name of your list, in the edit field:    
-`File name`    
-Then indicating txt or json in the document type.    
-`Type :  Text files (*.txt)`    
-Down arrow to find:    
-`JSON files (*.json)`    
-Finally save your file by pressing the button:    
-`Save`    
-If everything went well, the following message will appear:    
-`Note! Contacts exported successfully!`    
-* Import contacts into your address book... Ctrl+Shift+i    
-Press Enter, a dialog box appears as name:    
-`Select a file to import`    
-`File name`    
-Then indicating txt or json in the document type.    
-`File Types: JSON Files (*.json)`    
-Down arrow to find:    
-File types: Text files (*.txt)    
-Select the previously exported txt or json file, then open it by pressing the button:    
-`Open`    
-If everything went well, the following message will appear:    
-`Note! Import completed successfully!`    
-Press the `OK` button, A new dialog box appears with the name:    
-`Choose how to proceed`    
-`By choosing Yes, the contacts will be overwritten.`    
-`By choosing No, they will only be added to existing ones.`    
-Press either the Yes or No button depending on your choice.    
-FOR YOUR INFORMATION    
-`JSON files in the case of this program are structured as a list of data, for example: ["...", "...", "..."] and are more convenient for the program to manage, while text files they are structured with a new line marker, for example line\nline\nline etc which are more human readable`.    
+* Import contacts into your address book... Ctrl+Shift+I  
+Press Enter, a dialog box will appear with the title:  
+`Select a file to import`  
+`File Type:` JSON File (*.json).  
+Press the down arrow to find:  
+`Text File (*.txt)`.  
+Select the previously exported txt or json file from the tree view.  
+Press the button: "Import File."  
+If everything goes well, the following message will appear:  
+`Warning! Import completed successfully!`  
+Pressing the "Close" button will open a new dialog box titled:  
+`Choose how to proceed.`  
+`Selecting Yes will overwrite the contacts.`  
+`Selecting No will only add them to the existing ones.`  
+Make your choice.  
+
+**FOR YOUR INFORMATION:**  
+JSON files in this program are structured as a list of data, e.g.,  
+["...", "...", "..."], and are easier to handle for the program, while text files are structured with a new line marker, e.g.,  
+line  
+line  
+line, etc., which are more human-readable.  
+
+# Configuration submenu
+* Export the configuration folder... Ctrl+E  
+Press Enter, a dialog box will appear with the title:  
+`Choose destination folder`  
+Select the export location for the ReminderApp_config folder from the tree view:  
+Press the down arrow to find:  
+`Export Folder`  
+If everything goes well, the following message will appear:  
+`Warning! Configuration exported successfully!`  
+
+* Import the configuration folder... Ctrl+I  
+Press Enter, a dialog box will appear with the title:  
+`Choose source folder`  
+Select the ReminderApp_config folder location from the tree view:  
+Press the down arrow to find:  
+`Import Folder`  
+If everything goes well, the following message will appear:  
+`Warning! Configuration imported successfully!`    
 * Close Alt+f4    
 This option simply closes the main ReminderApp window and you can reopen it using the combination NVDA+Shift+F2, or the combination you set.    
 
@@ -140,6 +162,20 @@ Press enter, a dialog box appears, move with "Tab" and "Shift+Tab" to move betwe
 `Number of repetitions: 3`    
 `Interval between repetitions (seconds): 8`    
 `Use alarm: Alarm 01`    
+`Working Folder:` which shows the current path of the ReminderApp_config folder  
+`Change working folder`  
+Pressing this button will open a window titled `Select the destination folder`  
+Select the new working path for the ReminderApp_config folder.  
+Press the `Export Folder` button  
+The new working folder path will be displayed in the dedicated field.  
+`Set default path`  
+Pressing this button, which always points to the default path of the ReminderApp_config folder in NVDA, will display the new working folder path in the dedicated field.  
+Note:  
+If you confirm with `Ok`, a window will ask how to proceed.  
+You can choose to export the current configuration to the new path (a ReminderApp_config folder will be created if it doesn't exist, or it will be updated if it already exists).  
+Choosing `No` instead will allow you to set only the new path without updating the existing folder.  
+If everything goes well, a window will appear:  
+`Warning: Configuration successfully exported and created in: new path.`    
 `Enables reading of hours in 24-hour format`    
 This is a checkbox to choose whether to set the format to 24 hours or 12 hours, the default is 24 hours.    
 Press the spacebar to set the 12-hour format.    
