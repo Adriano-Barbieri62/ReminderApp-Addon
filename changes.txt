@@ -1,0 +1,32 @@
+Version 1.6:
+• Updated documentation and French language.
+
+Version 1.5:
+• Optimized temporary locale setting for the correct functioning of masked.TimeCtrl.
+
+Version 1.4:
+• Added UTF-8 encoding for the characters when saving the search string used, to support accented characters.
+• Fixed the stopping of timers in the terminate function.
+
+Version 1.3:
+• Added Russian localization and documentation thanks to V. Kupriyanov.
+• Enabled sound in the second window for birthday and anniversary announcements when both are present in the day's reminders.
+
+Version 1.2:
+• Fixed the display of the last day of February, which previously showed the 27th instead of the 28th (leap years are not considered).
+• Fixed an issue with a cycle that didn't check the appointments for the day if a birthday or anniversary was recently added to the day’s reminders.
+• Added the ability to import/export the configuration folder.
+• Added the option to change the configuration folder path, with the ability to export a copy if it exists in the new path, or to restore the default path.
+• Export and import of contacts and configuration folder are now grouped into two separate submenus.
+• The ReminderApp interface is now closed when the combination is pressed twice, instead of being minimized.
+
+Version 1.1:
+• Added 9 new alarms.
+• The rescue of the settings for repetition of the alarm and interval between the alarms was corrected.
+• Add Turkish translation.
+• Update color style to help visually impaired people; request to change the colors of the Auto file by @CyrilleB79.
+• Corrected the incorrect 'Recurrent medicine' key to 'Recurring medicine'; due to the translation error, weekly or yearly recurrence of the recurring reminder was not being registered.
+• Corrected and optimized the loading and saving management in the notification settings.
+
+Version 1.0:
+• Initial version: the portable ReminderApp executable has been converted into an NVDA add-on.
