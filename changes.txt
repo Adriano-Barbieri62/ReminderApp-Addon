@@ -1,3 +1,6 @@
+Version 1.7:
+• Improvement control safe mode during NVDA updates.
+
 Version 1.6:
 • Updated documentation and French language.
 
