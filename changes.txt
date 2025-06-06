@@ -1,3 +1,6 @@
+Version 1.9
+•Added automatic update of the main selector's date at midnight.
+
 Version 1.8
 • Updated Turkish location.
 
