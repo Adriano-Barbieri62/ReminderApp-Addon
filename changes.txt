@@ -1,5 +1,8 @@
+Version 2.0
+• At midnight, as soon as the day changes, if there's a birthday or anniversary, it will now be notified.
+
 Version 1.9
-•Added automatic update of the main selector's date at midnight.
+• Added automatic update of the main selector's date at midnight.
 
 Version 1.8
 • Updated Turkish location.
