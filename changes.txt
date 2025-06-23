@@ -1,3 +1,7 @@
+Version 2.1
+• Fixed the conversion of months to start with a capital letter when importing data from the application to the add-on.
+• Added Ukrainian local translation, thanks to mr.yura.
+
 Version 2.0
 • At midnight, as soon as the day changes, if there's a birthday or anniversary, it will now be notified.
 
