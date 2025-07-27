@@ -1,3 +1,11 @@
+Version 2.2
+• Fixed the reminder preview window not updating after midnight.
+• Fixed the SetLocale localization issue when changing NVDA's language with the 12-hour time format enabled.
+• Added voice feedback for date selectors.
+• Added the 'Create reminder list with expiration date' feature in the Edit menu.
+• Added 'memo' icon to highlight reminders with additional notes.
+• Documentation updated.
+
 Version 2.1
 • Fixed the conversion of months to start with a capital letter when importing data from the application to the add-on.
 • Added Ukrainian local translation, thanks to mr.yura.
