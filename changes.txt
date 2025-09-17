@@ -1,5 +1,9 @@
+Version 2.4
+• Improved gesture control for the preview window: it can now also be closed with a quick double-press of the assigned keys.
+
 Version 2.3
 • Fixed the display of reminders in the main window, which was not synchronized if the database had just been imported and its content was subsequently modified.
+
 Version 2.2
 • Fixed the reminder preview window not updating after midnight.
 • Fixed the SetLocale localization issue when changing NVDA's language with the 12-hour time format enabled.
