@@ -1,3 +1,5 @@
+Version 2.6
+• Added necessary sis module, because it was removed from  nvda alpha 55911
 Version 2.5
 • Updated compatibility flag for nvda 2026.1
 Version 2.4
