@@ -1,7 +1,9 @@
+Version 2.7
+• Updated compatibility flag for nvda 2026.1 stable version
 Version 2.6
 • Added necessary sis module, because it was removed from  nvda alpha 55911
 Version 2.5
-• Updated compatibility flag for nvda 2026.1
+• Updated compatibility flag for nvda 2026.1 Beta version
 Version 2.4
 • Improved gesture control for the preview window: it can now also be closed with a quick double-press of the assigned keys.
 
