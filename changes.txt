@@ -1,3 +1,6 @@
+Version 2.8
+• Fixed the date sorting when creating the appointments list.
+• Description entry now automatically capitalizes only the first letter of the first word in the text and emits a beep.
 Version 2.7
 • Updated compatibility flag for nvda 2026.1 stable version
 Version 2.6
